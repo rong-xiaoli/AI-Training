@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1148d8d1-2a08-4935-947a-33f17e34c3dd</ProjectGuid>
+    <ProjectGuid>e5774caf-3b9d-4f0b-a775-4a82407a6aa5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>AI_Training.py</StartupFile>
     <SearchPath>

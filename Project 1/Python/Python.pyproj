@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e5774caf-3b9d-4f0b-a775-4a82407a6aa5</ProjectGuid>
+    <ProjectGuid>eb0a7170-c0e1-49a1-9ce4-3bc79ee06750</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AI_Training.py</StartupFile>
+    <StartupFile>Python.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>AI_Training</Name>
-    <RootNamespace>AI_Training</RootNamespace>
+    <Name>Python</Name>
+    <RootNamespace>Python</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AI_Training.py" />
+    <Compile Include="Python.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
